@@ -51,7 +51,7 @@ width:  55px;
 overflow:hidden;
 -webkit-transition:width .05s linear;
 transition:width .05s linear;
--webkit-transform:translateZ(0) scale(1,1);
+--webkit-transform:translateZ(0) scale(1,1);
 z-index:1000;
 }
 
@@ -74,7 +74,7 @@ color:rgb(255, 255, 255);
  font-family: arial;
 font-size: 14px;
 text-decoration:none;
--webkit-transform:translateZ(0) scale(1,1);
+--webkit-transform:translateZ(0) scale(1,1);
 -webkit-transition:all .1s linear;
 transition:all .1s linear;
 
@@ -207,10 +207,7 @@ transition:all .1s linear;
                     </span>
                 </a>
                 <ul style="background: #2e2f31;">
-                    <!--<li><a href="#" id="nav-text" data-toggle="modal" data-target="#myModal_contratosFG"><i
-                                class="fa fa-book fa-2x" id="icon-color"></i>
-                            <span class="nav-text">Contratos
-                                FG</span></a></li>-->
+                    
                     <li><a href="#" id="nav-text" data-toggle="modal" data-target="#myModal_contratoProveedor"><i
                                 class="fa fa-book fa-2x" id="icon-color"></i>
                             <span class="nav-text">Cargar
@@ -247,7 +244,7 @@ transition:all .1s linear;
                     </span>
                 </a>
                 <ul style="background: #2e2f31;">
-                    <li><a href="medicamentosFG" id="nav-text" target="_blank"><i class="fa fa-medkit fa-2x" id="icon-color"></i>
+                    <li><a href="medicamentos" id="nav-text" target="_blank"><i class="fa fa-medkit fa-2x" id="icon-color"></i>
                             <span class="nav-text">Medicamento FG
                             </span></a></li>
 
@@ -272,48 +269,6 @@ transition:all .1s linear;
                 </ul>
             </li>
             
-            <!--
-            <hr style="margin: 0px 0px;">
-            <li>
-                <a href="#" data-toggle="modal" data-target="#myModal_salidasCisfa">
-                    <i class="fa fa-check fa-2x" id="icon-color"></i>
-                    <span class="nav-text">
-                        Salidas FG
-                    </span>
-                </a>
-
-            </li>
-            <hr style="margin: 0px 0px;">
-            <li>
-                <a href="#" data-toggle="modal" data-target="#myModal_entradasCisfa">
-                    <i class="fa fa-check fa-2x" id="icon-color"></i>
-                    <span class="nav-text">
-                        Entradas FG
-                    </span>
-                </a>
-
-            </li>
-            <hr style="margin: 0px 0px;">
-            <li>
-                <a href="#">
-                    <i class="fa fa-archive fa-2x" id="icon-color"></i>
-                    <span class="nav-text">
-                        Minimos/Maximos
-                    </span>
-                </a>
-                <ul style="background: #2e2f31;">
-                    <li><a href="minimos" target="_blank" id="nav-text"><i class="fa fa-archive fa-2x"
-                                id="icon-color"></i>
-                            <span class="nav-text">Minimos no alcanzados</span></a></li>
-                    <li><a href="minimosCubiertos" target="_blank" id="nav-text"><i class="fa fa-archive fa-2x"
-                                id="icon-color"></i>
-                            <span class="nav-text">Minimos Cubiertos</span></a></li>
-                    <li><a href="maximosCubiertos" target="_blank" id="nav-text"><i class="fa fa-archive fa-2x"
-                                id="icon-color"></i>
-                            <span class="nav-text">Maximos Cubiertos</span></a></li>
-
-                </ul>
-            </li>-->
             <hr style="margin: 0px 0px;">
 
         </ul>

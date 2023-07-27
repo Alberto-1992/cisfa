@@ -1,7 +1,7 @@
 <div id="myModal_cargamedicamento" class="modal fade in" role="dialog">
 
     <meta charset="UTF-8">
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog">
 
         <!--Modal content-->
         <div class="modal-content">

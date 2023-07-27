@@ -25,16 +25,8 @@
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    <script src="graficoConsumosMedicamentos.js"></script>
-    <script src="scripts/listarMedicamento.js"></script>
-    <script src="scripts/selectContrato.js"></script>
-    <script src="consolidadas.js"></script>
-    <script src="consolidadasExterno.js"></script>
     <script src="scripts/medicamentos.js"></script>
     <script src="scripts/medicamentoEnOrden.js"></script>
-    <script src="scripts/salidasCisfa.js"></script>
-    <script src="scripts/entradasCisfa.js"></script>
-    <script src="scripts/cancelarOrdenOs.js"></script>
 
     <!-- para tablas editables -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -126,20 +118,6 @@
 
     </header>
 
-    <style>
-        /**
-           .imagenCisfa2{
-                width: 100%;
-                height: 120px;
-                background: white;
-                float: left;
-                margin-left: 0%;
-                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbNIGjQwMRYhvjMiXYRxAO7XiFrk9pcpd1hA&usqp=CAU);
-                background-repeat: no-repeat;
-                background-size: 100% 100%;
-}
-**/
-    </style>
     <div class="box2">
         <div class="box1">
             <?php
@@ -150,12 +128,7 @@
 
         <div class="box03">
             <div class="imagenCisfa" style="margin-top: 25px; height: 88px; "></div>
-            <!--
-            <strong style="float: left; margin-left:  1%; font-size: 15px; margin-top: 70px; font-style: italic;"><label>Total real <input type="text" value="<?php echo formatMoney($total4); ?>"></label></strong>
-<strong style="float: left; margin-left:  1%; font-size: 15px; margin-top: 70px; font-style: italic;"><label>Total en O.S <input type="text" value="<?php echo formatMoney($totalReal); ?>"></label></strong>
-<strong style="float: left; margin-left: 0%; font-size: 15px; margin-top: 70px; font-style: italic;"><label>Minimo a cubrir <input type="text" value="<?php echo formatMoney($totalMinimo); ?>"></label></strong>   
-<strong style="float: left; margin-left: 0%; font-size: 15px; margin-top: 70px; font-style: italic;"><label>Faltante a cubrir <input type="text" value="<?php echo formatMoney($totalRes); ?>"></label></strong> -->
-            <!--<strong style="float: left; margin-left: 0%; font-size: 15px; margin-top: 0px; font-style: italic;"><label>Monto maximo <input type="text" value="<?php echo formatMoney($totalMax); ?>"></label></strong>-->
+            
             <a href="exportExcelOS?id='<?php echo $var; ?>'"><i class="fas fa-cloud-download-alt" style="font-size: 25px;  margin-top: 60px; float: left; margin-left: 100px;"></a></i>
             <input list="medicamentoEnOrden" class="form-control" id="medicamento_orden" style="margin-left: auto; margin-right: auto; margin-top: 50px; width: 550px; height: 40px;" onchange="medicamento_enorden();" placeholder="Clave, Nombre o CNIS del Medicamento">
 
@@ -302,15 +275,7 @@
 <script src="script/scripts.js"></script>
 
 </html>
-<?php
-require 'modals/buscarMedicamento.php';
-require 'modals/medicamentoEnOrden.php';
-require 'modals/medicamentoConsolidado.php';
-require 'modals/registrarProveedor.php';
-require 'modals/salidasCisfa.php';
-require 'modals/cancelarOrdenSuministro.php';
-require 'modals/entradasCisfa.php';
-?>
+
 <script>
     $("button").click(function() {
         var fired_button = $(this).val();

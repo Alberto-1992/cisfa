@@ -3,7 +3,7 @@ $(obtener_registros());
 function obtener_registros(alumno)
 {
 	$.ajax({
-		url : 'tablamedicamento.php',
+		url : 'medicamentosCisfa.php',
 		type : 'POST',
 		dataType : 'html',
 		data : { alumnos: alumno },
@@ -26,3 +26,4 @@ $(document).on('keyup', '#busqueda', function()
 			obtener_registros();
 		}
 });
+

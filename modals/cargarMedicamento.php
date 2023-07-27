@@ -1,12 +1,12 @@
 <div id="myModal_cargamedicamento" class="modal fade in" role="dialog">
 
     <meta charset="UTF-8">
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog">
 
         <!--Modal content-->
         <div class="modal-content">
             <div class="modal-header" style="background: green; color:white; ">
-                <h4 class="modal-title"> Cargar medicamento </h4>
+                <h4 class="modal-title"> Cargar medicamento</h4>
             </div>
             <div class="modal-body">
                 <script>
