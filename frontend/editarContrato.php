@@ -134,7 +134,6 @@
                             <input name="partida_presupuestaria" type="text" class="form-control" placeholder="Partida presupuestaria" required="required" value="<?php echo $row['partida_presupuestaria']; ?>">
                         </div>
                     </div>
-                </div>
 
                 <div class="form-group col-lg-6">
                     <label class="fecha-inicio">Fecha de firma</label>
@@ -160,17 +159,15 @@
                     </div>
 
                 </div>
+            </div>
 
-                <div class="form-footer">
+                <div style="width: 100%; height:auto; background: #E7E7E7; padding: 5px; display: flex; align-items:center; justify-content:center;">
+                    <a href="principal" class="btn btn-danger">Regresar</a>&nbsp;&nbsp;
+                    <input type="submit" class="btn btn-info" name="editar" value="Editar">&nbsp;&nbsp;
 
-                    <input type="submit" class="btn btn-info" name="editar" value="Editar" style="float: left; margin-top: 30px;"><br><br><br><br>
                     <?php
-                    echo '<a href="redirect-objetoContratacion?var2=' . $var2 . '&&contPed=' . $contPed . '" class="btn btn-info" style="width: 150px; float: right; margin-right: 0px; margin-top: -65px;">Siguiente</a>';
-
-
+                    echo '<a href="insumosEnContrato?var2=' . $var2 . '&&contPed=' . $contPed . '" class="btn btn-info">Siguiente</a>';
                     ?>
-                    <a href="principal" class="btn btn-danger" style="float: left; margin-top: -65px; margin-left: 80px;">Regresar</a>
-
                 </div><br>
 
 

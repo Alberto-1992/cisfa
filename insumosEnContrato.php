@@ -1,10 +1,10 @@
 <?php session_start();
     if(isset($_SESSION['usuario'])){
-        require 'frontend/objetoDeContratacion.php';
+        require 'frontend/insumosEnContrato.php';
     }elseif(isset($_SESSION['usuarioFG'])){
-        require 'frontend/objetoDeContratacionFG.php';
+        require 'frontend/insumosEnContratoFG.php';
     }elseif(isset($_SESSION['usuarioAdmin'])){
-        require 'frontend/objetoDeContratacion.php';
+        require 'frontend/insumosEnContrato.php';
     }else{
         header ('location: index.php');
     }

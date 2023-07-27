@@ -154,7 +154,7 @@ error_reporting(0);
                 <td>A <?php echo $dias; ?> de vencer </td>
                 <td><a href="ordenSuminstroFG?Xy='<?php echo $valor ?>'&tr='<?php echo $contrato ?>'" target="popup" onClick="window.open(this.href, this.target, "width=1100,height=600,top=15px, left=220,scrollbars=NO,menubar=NO,titlebar= NO,status=NO,toolbar=NO" ); return false;"
                 style="font-size: 24px; color: green; background: none; border: none;" class="lnr lnr-file-add"></a></td>
-                <td><a  href="editarContratoFG?Xy='<?php echo $valor ?>'"  style="font-size: 24px; color: blue; background: none; border: none;" class="lnr lnr-enter"></a></td>
+                <td><a  href="editarContrato?Xy='<?php echo $valor ?>'"  style="font-size: 24px; color: blue; background: none; border: none;" class="lnr lnr-enter"></a></td>
                 <!--<td><a  href="verContratoFG?Xy='<?php echo $valor ?>'" style="font-size: 24px; color: yellow; background: none; border: none;" class="lnr lnr-exit"></a></td>-->
                 <td><button type="button" value='<?php echo $valor ?>' style="font-size: 24px; color: red; background: none; border: none;" class="lnr lnr-trash"><i id ="eliminar" ></i></button></td>
                             

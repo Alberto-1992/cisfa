@@ -80,7 +80,6 @@ error_reporting(0);
             <th>Consumo real</th>
             <th>Minimo precio</th>
             <th>Maximo precio</th>
-            <th>Eliminar</th>
         </tr>
             </thead>
         <tbody>
@@ -103,8 +102,6 @@ error_reporting(0);
             <td><?php echo $dataRegistro['cantidad'] ?></td>
             <td><?php echo formatMoney($dataRegistro['MINIMOPRECIO']) ?></td>
             <td><?php echo formatMoney($dataRegistro['MAXIMOPRECIO']) ?></td>
-			<td><button type="button" id="elimina" value=' . $clave . '  style="background: none; border: 0; color:inherit"> <i id ="eliminar" class="fas fa-trash"></i></button></td>
-		
 			
 			</tr>
             <?php } ?>
