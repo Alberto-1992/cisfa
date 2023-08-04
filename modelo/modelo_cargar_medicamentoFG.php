@@ -70,7 +70,16 @@ $(window).load(function() {
     return false;
          }
     
-
+         function multiplicar(valor){
+    total1=document.getElementById('txt_campo_1').value;
+    total2=document.getElementById('txt_campo_2').value;
+    total5=document.getElementById('txt_campo_3').value;
+    total3=parseFloat(total1);
+    total=parseFloat(Math.round(total3*total2*100)/100).toFixed(2);
+    total4=parseFloat(Math.round(total3*total5*100)/100).toFixed(2);
+    document.getElementById('spTotal').value=total;
+    document.getElementById('spTotal2').value=total4
+}
 </script>
 
 
